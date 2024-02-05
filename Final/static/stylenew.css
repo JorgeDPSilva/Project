@@ -1,0 +1,40 @@
+/* Botões */
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+  
+.h1 { 
+    text-align: center;
+}
+   
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+/* Estilo do botão ao passar o cursor */
+.button:hover {
+  background-color: #3e8e41;
+}
+
+/* Estilo do botão ativo (quando pressionado) */
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
